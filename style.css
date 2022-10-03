@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+ .parent{
+     display: grid;
+     height: 100vh;
+     grid-template-columns: repeat(12, 1fr);
+     grid-template-rows: repeat(12, 1fr);
+ }
+
+ .div1{
+     grid-area: 1 / 1 / 5 / 5;
+     background-color: red;
+     border-radius: 5%;
+ }
+
+ .div2{
+     grid-area: 5 / 1 / 9 / 3;
+     background-color: purple;
+     border-radius: 5%;
+ }
+
+ .div3{
+     grid-area: 5 / 3 / 6 / 5;
+     background-color: brown;
+     border-radius: 5%;
+ }
+
+ .div4{
+     grid-area: 6 / 3 / 9 / 5;
+     background-color: cyan;
+     border-radius: 5%;
+ }
+
+ .div5{
+     grid-area: 9/ 1 / 13 / 5;
+     background-color: darkblue;
+     border-radius: 5%;
+ }
+
+ .div6{
+     grid-area: 1 / 5 / 8 / 7;
+     background-color: rgb(184, 121, 121);
+     border-radius: 5%;
+ }
+
+ .div7{
+     grid-area: 1 / 7 / 3 / 9;
+     background-color: yellow;
+     border-radius: 5%;
+ }
+
+ .div8{
+     grid-area: 3 / 7 / 8 / 9;
+     background-color: green;
+     border-radius: 5%;
+ }
+
+ .div9{
+     grid-area: 8 / 5 / 13 / 9;
+     background-color: orange;
+     border-radius: 5%;
+ }
+
+ .div10{
+     grid-area: 1 / 9 / 3 / 13;
+     background-color: rgb(39, 110, 39);
+     border-radius: 5%;
+ }
+
+ .div11{
+     grid-area: 5 / 10 / 3 / 9;
+     background-color: rgb(103, 212, 103);
+     border-radius: 5%;
+ }
+
+ .div12{
+     grid-area: 5 / 10 / 3 / 13;
+     background-color: rgb(19, 19, 114);
+     border-radius: 5%;
+ }
+
+ .div13{
+     grid-area: 5 / 9 / 11 / 13;
+     background-color: rgb(198, 238, 198);
+     border-radius: 5%;
+ }
